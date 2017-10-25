@@ -6,7 +6,8 @@ var Influencias = require('./models/Influencias');
 var _ = require('lodash');
 
 var neo4j = window.neo4j.v1;
-var driver = neo4j.driver("bolt://localhost", neo4j.auth.basic("neo4j", "1234"));
+var pass;
+var driver;
 
 /**
  * Metodo que busca lenguajes en la base de datos
@@ -118,6 +119,8 @@ function getCreaciones(nombre) {
 }
 
 function getGraph() {
+      pass = window.prompt("Escribe la password de Neo4j: ");
+      driver = neo4j.driver("bolt://localhost", neo4j.auth.basic("neo4j", pass));
       var session = driver.session();
       return session.run(
         'MATCH (m:Lenguaje_programacion)-[r:INFLUIDO_POR]->(p:Lenguaje_programacion) \
