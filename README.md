@@ -1,6 +1,9 @@
-# Neo4j Lenguajes de programaciÛn - AplicaciÛn de ejemplo
+# Neo4j Lenguajes de programaci√≥n - Aplicaci√≥n de ejemplo
 
 ![imagen de la aplicacion](./img/demo.png)
+
+## GIST
+* Hay un GIST sobre este proyecto que puedes ver en [https://portal.graphgist.org/graph_gists/lenguajes_de_programacion](https://portal.graphgist.org/graph_gists/lenguajes_de_programacion)
 
 ## Instrucciones
 
@@ -15,19 +18,19 @@ $ npm install
 
 * Ejecutar Neo4J ([Descargar e Instalar](http://neo4j.com/download)) localmente (/bin neo4J console)
 * y abrir el Neo4J Browser [Neo4j Browser](http://localhost:7474). 
-* Ir a la carpeta del proyecto y ejecutar en lÌnea de comandos:
+* Ir a la carpeta del proyecto y ejecutar en l√≠nea de comandos:
 
 ```bash
-# Ejecutar en modo desarrollo, los cambios se actualizan autom·ticamente
+# Ejecutar en modo desarrollo, los cambios se actualizan autom√°ticamente
 $ npm run dev
 
-# Para construir la aplicaciÛn en la carpeta build
+# Para construir la aplicaci√≥n en la carpeta build
 $ npm run build
 ```
 
-Cuando se estÈ ejecutando en modo dev, ir a la direcciÛn [http://localhost:8080/webpack-dev-server/](http://localhost:8080/webpack-dev-server/) para ver la app.
+Cuando se est√© ejecutando en modo dev, ir a la direcci√≥n [http://localhost:8080/webpack-dev-server/](http://localhost:8080/webpack-dev-server/) para ver la app.
 
-DespuÈs de ejecutar el comando `npm run build`,  abrir el archivo "build/index.html" en el navegador.
+Despu√©s de ejecutar el comando `npm run build`,  abrir el archivo "build/index.html" en el navegador.
 
 ### Ejecutar localmente
 
