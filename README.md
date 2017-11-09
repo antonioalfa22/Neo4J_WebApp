@@ -34,6 +34,7 @@ Después de ejecutar el comando `npm run build`,  abrir el archivo "build/index.
 
 ### Ejecutar localmente
 
+```
 # Abrir en http://localhost:8080
 $ npm run start
 ```
